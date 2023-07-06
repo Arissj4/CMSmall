@@ -1,0 +1,180 @@
+.data{
+    background-color: transparent;
+    text-align: center;
+}
+
+.data div{
+    margin-top: 0.5em;
+}
+
+.data div a{
+    color: #14ddac;
+    font-size: 2em;
+    text-decoration: none;   
+}
+
+.data div a:hover{
+    color: #dd1490d8;
+}
+
+#title{
+    font-size: 1.3em;
+}
+
+#details{
+    font-size: 1em;
+    color: #00daf0;
+}
+
+#datadetails > div{
+    padding: 0px;
+    border-bottom: 1px solid;
+    border-left: 1px solid;
+    border-bottom-right-radius: 15%;
+    border-bottom-left-radius: 57%;
+    border-top-left-radius: 20%;
+    border-color: #958b00b5;
+    border-spacing: 20px;
+}
+
+#datadetails > div:hover {
+    border-color: #ebdc03cc;
+}
+
+#change-name {
+    margin: auto;
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+#change-name div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#change-name input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0.7em;
+    width: 25em;
+    height: 2.2em;
+    border-radius: 0.5em;
+    border: 1px solid #4d194d;
+    text-align: center;
+}
+
+#change-name-buttons {
+    margin-bottom: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white
+}
+
+#change-name-buttons button{
+    text-align: center;
+    width: 5em;
+    margin-top: 1em;
+    background-color: #00a9ff;
+    color: black;
+}
+
+#change-name-buttons button:hover{
+    background-color: #00aaffc0;
+    border-color: #00c8ff;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 255, 242, 0.459);
+}
+
+
+/* --------------Table---------------- */
+
+#data{
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ------------Actions----------------- */
+
+#actionslabel{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: #83d203d2;
+}
+
+#actions{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#actions > a{
+    font-size: 1em;
+    background-color: #00a9ff;
+    color: black;
+}
+
+#actions > a:hover{
+    background-color: #00aaffc0;
+    border-color: #00c8ff;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 255, 242, 0.459);
+}
+
+#actions > button{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #d80101de;
+    border-color: #8d0303cd;
+    color: black;
+}
+
+#actions > button:hover{
+    background-color: #d80101c5;
+    border-color: #d80101c5;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 2px #ff00009c;
+}
+
+#addbutton > a{
+    font-size: 1em;
+    width: 7em;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 3px;
+    background-color: transparent;
+    border: 2px solid #aaff01a2;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.892);
+    box-shadow: 0px 0px 8px 0px #00ff04cf;
+}
+
+#addbutton > a:hover{
+    font-size: 1em;
+    width: 7em;
+    margin-left: auto;
+    margin-right: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 2px;
+    background-color: transparent;
+    border: 3px solid #aaff01;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.744);
+    box-shadow: 0px 0px 12px 2px #01da05cf;
+}

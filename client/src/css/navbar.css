@@ -1,0 +1,37 @@
+#webname {
+  color: darkgray;
+  font-size: 2em;
+  margin-right: 1em;
+  padding-left: 0px;
+}
+
+#logo{
+  margin-left: 1em;
+  padding-right: 0px;
+}
+
+#log{
+  margin-left: 6.5em;
+  margin-right: 1em;
+}
+
+#links{
+  background: transparent;
+  color: white;
+  margin-left: auto;
+}
+
+#links a {
+  color: white;
+}
+
+#links a:hover {
+  color: #e1dd16;
+}
+
+#username{
+  margin-top: 0.8em;
+  margin-left: 1em;
+  margin-right: 1em;
+  color: white;
+}

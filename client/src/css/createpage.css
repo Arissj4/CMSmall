@@ -1,0 +1,169 @@
+#backbutton > a{
+    font-size: 1em;
+    width: 7em;
+    margin-right: auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 3px;
+    background-color: transparent;
+    border: 2px solid #ff0101a2;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.892);
+    box-shadow: 0px 0px 8px 0px #ff0000cf;
+}
+
+#backbutton > a:hover{
+    font-size: 1em;
+    width: 7em;
+    margin-right: auto;
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 2px;
+    background-color: transparent;
+    border: 3px solid #e40e0e;
+    border-radius: 25px;
+    color: rgba(255, 255, 255, 0.744);
+    box-shadow: 0px 0px 12px 2px #df0f0fee;
+}
+
+/* -------------- Create Form------------------- */
+
+#mainform .info{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+#mainform .creationbuttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#mainform .creationbuttons > button{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #00a9ff;
+    border-color: #0285c7d4;
+    color: black;
+}
+
+#mainform .creationbuttons > button:hover{
+    background-color: #00c8ffb3;
+    border-color: #00c8ff;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 255, 242, 0.459);
+}
+
+#mainform .creationbuttons .createbutton{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #06ca54;
+    border-color: #02c751d4;
+    color: black;
+
+}
+
+#mainform .creationbuttons .createbutton:hover{
+    background-color: #00ff6696;
+    border-color: #10d55fee;
+    color: white;
+    box-shadow: 0px 0px 8px 0px rgba(4, 230, 68, 0.641);
+}
+
+#mainform .middle{
+    width: 50%;
+    border: 1px solid darkgray;
+}
+/* ----------------- Add Header -------------------------- */
+
+#mainform textarea{
+    width: 100%;
+}
+
+#mainform .newcompo{
+    width: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+#mainform .newcompo > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#mainform .newcompo > p{
+    width: 80%;
+}
+
+#mainform .newcompo > img{
+    width: 80%;
+    object-fit: contain;
+}
+
+#mainform .newcompo > :is(h1,h2,h3,h4,h5,h6){
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainform .newcompo .buts  button{
+    font-size: 1em;
+    width: 7em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 0.5em;
+    border: 1px solid;
+    background-color: #00a9ff;
+    border-color: #0285c7d4;
+    color: black;
+}
+
+#mainform .newcompo .buts  button:hover{
+    background-color: #00c8ffb3;
+    border-color: #00c8ff;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 255, 242, 0.459);
+}
+
+/* ----------------- Messages -------------------------- */
+
+.alert2{
+    font-size: 1em;
+    margin: 1em;
+    width: 100%;
+    border: 0px;
+    border: 1px solid rgb(182, 3, 3);
+    border-radius: 0.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff22008c;
+    color: white;
+}
+
+#mainform .alert2 > button{
+    background-color: transparent;
+    height: auto;
+    margin-top: 0.5em;
+}
+
+#mainform .alert2 > button:hover{
+    background-color: transparent;
+    box-shadow: 0px 0px 0px 0px rgba(255, 0, 0, 0.459);
+}

@@ -1,0 +1,41 @@
+#mainform {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+#mainform div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+}
+
+#mainform div input {
+    width: 20em;
+    height: 2.2em;
+    border-radius: 0.5em;
+    border: 1px solid #4d194d;
+    padding-left: 0.5em;
+}
+
+#mainform div label{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    color: whitesmoke;
+}
+
+#mainform div button{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    background-color: #00a9ff;
+    color: black;
+}
+
+#mainform div button:hover{
+    background-color: #00aaffc0;
+    border-color: #00c8ff;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 0px rgba(0, 255, 242, 0.459);
+}

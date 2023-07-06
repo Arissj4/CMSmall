@@ -1,0 +1,36 @@
+#imgform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#imgform > div > label{
+    font-size: 1.5em;
+    margin-top: 0.5em;
+}
+
+#imgform .allimages{
+    margin: 0px;
+    padding: 0px;
+}
+
+#imgform .allimages > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#imgform .allimages > div > div > div > img{
+    width: 100%;
+    margin: 1em;
+    object-fit: contain;
+}
+
+#imgform .allimages > div > div > div > div > input{
+    width: 15px;
+    height: 15px;
+}

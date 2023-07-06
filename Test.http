@@ -1,0 +1,100 @@
+// getusers api test
+GET http://localhost:3001/api/users HTTP/1.1
+content-type: application/json
+
+### 
+
+//Create a new page
+POST http://localhost:3001/api/newpage HTTP/1.1
+content-type: application/json
+
+{
+  "title": "Dota2 or LoL?",
+  "username": "Soheil",
+  "creationdate": "2023-06-20",
+  "publicationdatw": "2023-06-18",
+  "status": "",
+  "contents": [
+  {
+      "type": "header",
+      "size": "2",
+      "text": "Dota2"
+  },
+  {
+      "type": "p",
+      "text": "Anything is better than ..."
+  }
+  ]
+}
+
+###
+
+Get http://localhost:3001/api/pages HTTP/1.1
+content-type: application/json
+
+###
+
+Get http://localhost:3001/api/pages/published HTTP/1.1
+content-type: application/json
+
+###
+
+Get http://localhost:3001/api/pages/Soheil HTTP/1.1
+content-type: application/json
+
+###
+
+Delete http://localhost:3001/api/deletepage HTTP/1.1
+content-type: application/json
+
+{
+    "pageid": 19
+}
+
+###
+
+Post http://localhost:3001/api/updatepage HTTP/1.1
+Content-Type: application/json
+
+{
+  "pageid": 19,
+  "title": "Dota2 or LoL?",
+  "author": "Soheil",
+  "publicationdatw": "2023-06-18",
+  "status": "",
+  "contents": [
+    {
+      "type": "header",
+      "sizr": "2",
+      "text": "Dota2"
+    },
+    {
+      "type": "p",
+      "text": "Anything is better than ..."
+    }
+  ]
+}
+
+###
+
+Get http://localhost:3001/api/pictures HTTP/1.1
+content-type: application/json
+
+###
+
+Get http://localhost:3001/api/lastid HTTP/1.1
+content-type: application/json
+
+###
+
+Get http://localhost:3001/api/webname HTTP/1.1
+content-type: application/json
+
+###
+
+Post http://localhost:3001/api/upwebname HTTP/1.1
+content-type: application/json
+
+{
+  "webname": "CMSmall"
+}
